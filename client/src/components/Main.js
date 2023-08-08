@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
+
 const Main = () => {
     const [message, setMessage] = useState('...Loading')
     useEffect(() => {
@@ -9,8 +10,8 @@ const Main = () => {
     }, []); //empty brackets mean that it will only run once instead of every time the prop changes
 
     return (
-        <div>
-            <h2>Message from the backend: {message}</h2>
+        <div style={{backgroundImage: "url(/images/mtrainier.jpg)"}}>
+
         </div>
     )
 }
