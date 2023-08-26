@@ -13,8 +13,32 @@ body::before{
   content: "";
   position:absolute;
   top: 0px; right: 0px; bottom: 0px; left: 0px;
-  background-color: rgba(0, 0, 0, 0.40)
+  background-color: rgba(255, 255, 255, 0.30)
 }
+
+.header {
+  color: rgb(0, 0, 0);
+  position: relative;
+  margin: 5vh;
+}
+
+.gallery {
+  border: 1px solid red;
+  margin: 3% 10% 3% 10%;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around
+}
+
+.gallery-item {
+  width: 25%;
+  height: auto;
+  border: 1px dotted red;
+  margin:2.5%;
+}
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

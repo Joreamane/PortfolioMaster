@@ -13,7 +13,31 @@ const Main = () => {
 
     return (
         <div>
-            
+            <div className='header'>
+                <h1>Eric Fallon</h1>
+                <h4>Blending an eclectic background with a newfound passion for all things coding</h4>
+                <div className='gallery'>
+                    <div className='gallery-item'>
+                        
+                    </div>
+                    <div className='gallery-item'>
+                        
+                    </div>
+                    <div className='gallery-item'>
+                        
+                    </div>
+                    <div className='gallery-item'>
+                        
+                    </div>
+                    <div className='gallery-item'>
+                        
+                    </div>
+                    <div className='gallery-item'>
+                        
+                    </div>
+
+                </div>
+            </div>
         </div>
     )
 }
