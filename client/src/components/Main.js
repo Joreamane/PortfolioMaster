@@ -1,6 +1,6 @@
 import React, { useEffect, useState, Component } from 'react'
 import axios from 'axios'
-import background from '../images/mtrainier.jpg'
+import routeTrackerImg1 from '../images/RouteTracker1.JPG'
 import '../index.css'
 
 const Main = () => {
@@ -16,26 +16,25 @@ const Main = () => {
             <div className='header'>
                 <h1>Eric Fallon</h1>
                 <h4>Blending an eclectic background with a newfound passion for all things coding</h4>
-                <div className='gallery'>
-                    <div className='gallery-item'>
-                        
-                    </div>
-                    <div className='gallery-item'>
-                        
-                    </div>
-                    <div className='gallery-item'>
-                        
-                    </div>
-                    <div className='gallery-item'>
-                        
-                    </div>
-                    <div className='gallery-item'>
-                        
-                    </div>
-                    <div className='gallery-item'>
-                        
-                    </div>
-
+            </div>
+            <div className='gallery'>
+                <div className='gallery-item'>
+                    <img src={routeTrackerImg1}/>
+                </div>
+                <div className='gallery-item'>
+                    
+                </div>
+                <div className='gallery-item'>
+                    
+                </div>
+                <div className='gallery-item'>
+                    
+                </div>
+                <div className='gallery-item'>
+                    
+                </div>
+                <div className='gallery-item'>
+                    
                 </div>
             </div>
         </div>
