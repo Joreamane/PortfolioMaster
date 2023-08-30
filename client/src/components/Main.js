@@ -15,7 +15,7 @@ const Main = () => {
         <div>
             <div className='header'>
                 <h1>Eric Fallon</h1>
-                <h4>Blending an eclectic background with a newfound passion for all things coding</h4>
+                <h4>Web Developer blending a focused web development education with an ecclectic background.</h4>
             </div>
             <div className='gallery'>
                 <div className='gallery-item'>

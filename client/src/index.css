@@ -30,6 +30,7 @@ body::before{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  overflow:hidden;
 }
 
 .gallery-item {
@@ -42,12 +43,23 @@ body::before{
   border: 1px dotted red;
   /* margin:1%; */
   object-fit: contain;
+  flex-shrink:1;
 }
 
 .gallery-item img{
   flex-shrink: 1;
   min-width:100%;
   min-height: 100%;
+}
+
+.gallery-item:hover {
+  transition: 0.8s;
+  transition-timing-function: ease-in-out;
+  width:40%;
+  height:60%;
+}
+.gallery-item:not(:hover) {
+  transition:0.8s;
 }
 
 
