@@ -41,7 +41,6 @@ body::before{
   width: 30%;
   height: 45%;
   border: 1px dotted red;
-  /* margin:1%; */
   object-fit: contain;
   flex-shrink:1;
 }

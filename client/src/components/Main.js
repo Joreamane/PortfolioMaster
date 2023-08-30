@@ -1,6 +1,7 @@
 import React, { useEffect, useState, Component } from 'react'
 import axios from 'axios'
 import routeTrackerImg1 from '../images/RouteTracker1.JPG'
+import hotTopicImg1 from '../images/HotTopics.JPG'
 import '../index.css'
 
 const Main = () => {
@@ -22,11 +23,12 @@ const Main = () => {
                     <img src={routeTrackerImg1}/>
                 </div>
                 <div className='gallery-item'>
-                    
+                    <img src={hotTopicImg1}/>
                 </div>
                 <div className='gallery-item'>
                     
                 </div>
+                <br/>
                 <div className='gallery-item'>
                     
                 </div>
