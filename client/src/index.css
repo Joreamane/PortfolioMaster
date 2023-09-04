@@ -61,8 +61,6 @@ body::before{
   transition:0.5s;
 }
 
-
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

@@ -2,7 +2,8 @@ import React, { useEffect, useState, Component } from 'react'
 import axios from 'axios'
 import routeTrackerImg1 from '../images/RouteTracker1.JPG'
 import hotTopicImg1 from '../images/HotTopics.JPG'
-import git2 from '../images/git2.JPG'
+import git3 from '../images/git3.JPG'
+import zero from '../images/zero.jpg'
 import '../index.css'
 
 const Main = () => {
@@ -27,10 +28,10 @@ const Main = () => {
                     <img src={hotTopicImg1}/>
                 </div>
                 <div className='gallery-item'>
-                    <img src={git2}/>
+                    <img src={git3}/>
                 </div>
                 <div className='gallery-item'>
-                    
+                    <img src={zero}/>
                 </div>
                 <div className='gallery-item'>
                     
