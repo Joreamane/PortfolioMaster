@@ -7,7 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 strong {
-  color:#3e9efe;
+  color:#314d4b;
   font-size:80px;
 }
 h1{
@@ -24,19 +24,29 @@ h1{
   flex-direction: column;
   padding-bottom: 15%;
   padding-right: 15%;
-  background-image: url('./images/mountains2.jpg');
+  background-image: url('./images/mountains4.jpg');
   background-size: 100% 100%;
 }
 
 .navbar{
   width:100vw;
-  background-color: rgb(36, 31, 31);
+  background-color: #0f1212;
   color: white;
   padding-left: 15%;
+  position: -webkit-sticky;
+  position:sticky;
+  top:0;
 }
 
 .navlink {
   font-size: 24px;
+  color: white;
+}
+
+.body-container {
+  width: 70vw;
+  height:100vh;
+  display: flex;
 }
 
 code {

@@ -11,11 +11,21 @@ const Second = () => {
                 <h1 align="right">Ahoy, I'm <strong>Eric Fallon</strong></h1>
                 <h3 align="right">Web developer, brewer, climber, skier, <br></br>and resident insect/reptile expert</h3>
             </div>
-                <Navbar expand="lg" className="bg-body-tertiary navbar">
-                    <Nav.Link href='#Home' className='navlink'>Home</Nav.Link>
-                    <Nav.Link href='#About' className='navlink'>About</Nav.Link>
-                    <Nav.Link href='#Portfolio' className='navlink'>Portfolio</Nav.Link>
-                </Navbar>
+            <Navbar expand="lg" className="bg-body-tertiary navbar">
+                <Nav.Link href='#Home' className='navlink'>Home</Nav.Link>
+                <Nav.Link href='#About' className='navlink'>About</Nav.Link>
+                <Nav.Link href='#Portfolio' className='navlink'>Portfolio</Nav.Link>
+                <Nav.Link href='#Contact' className='navlink'>Contact</Nav.Link>
+            </Navbar>
+            <div className='body-container home-container'>
+
+            </div>
+            <div className='body-container about-container'>
+
+            </div>
+            <div className='body-container portfolio-container'>
+
+            </div>
         </div>
     )
 }
