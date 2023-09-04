@@ -9,6 +9,7 @@ Thank you for checking out my portfolio, here I will be keeping track of ideas a
     Single Page navigation links leading to the next section's individual containers
     Stay at top of screen once scrolled past
 4. Framework for display screens
+    Decide if doing scrolls to next, or carousel
     4.1. Home screen by 9/10
     4.2. About me screen by 9/14
     4.3. Projects screen by 9/18

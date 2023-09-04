@@ -1,23 +1,21 @@
 import React from 'react';
-import '../secondary.css'
+import '../secondary.css';
+import Nav from 'react-bootstrap/Nav'
+import Navbar from 'react-bootstrap/Navbar'
 
 const Second = () => {
     
     return (
         <div>
             <div className='landing-container'>
-                <h1>Ahoy, I'm <strong>Eric Fallon</strong></h1>
-                <h3>Web developer, brewer, climber, skier, <br></br>and resident insect/reptile expert</h3>
+                <h1 align="right">Ahoy, I'm <strong>Eric Fallon</strong></h1>
+                <h3 align="right">Web developer, brewer, climber, skier, <br></br>and resident insect/reptile expert</h3>
             </div>
-            <div className='navbar navbar-dark navbar-expand-lg bg-primary'>
-                <div className='container-fluid'>
-                    <div className='collapse navbar-collapse' id='navbarColor01'>
-                        <li className='nav-item'>
-                            <a href='#' className='nav-link'>Home</a>
-                        </li>
-                    </div>
-                </div>
-            </div>
+                <Navbar expand="lg" className="bg-body-tertiary navbar">
+                    <Nav.Link href='#Home' className='navlink'>Home</Nav.Link>
+                    <Nav.Link href='#About' className='navlink'>About</Nav.Link>
+                    <Nav.Link href='#Portfolio' className='navlink'>Portfolio</Nav.Link>
+                </Navbar>
         </div>
     )
 }
