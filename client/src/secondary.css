@@ -7,7 +7,25 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+strong {
+  color:darkred;
+  font-size:64px;
+}
+h1{
+  font-size: 48px;
+}
+.landing-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  flex-direction: column;
+  padding: 5%;
+  background-image: url('./images/mtrainier.jpg');
+  background-size: cover;
+}
 
 
 code {
