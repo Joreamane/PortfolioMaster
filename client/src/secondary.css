@@ -22,7 +22,7 @@ h1{
   width: 100vw;
   position: relative;
   flex-direction: column;
-  padding-bottom: 15%;
+  padding-bottom: 5%;
   padding-right: 15%;
   background-image: url('./images/mountains4.jpg');
   background-size: 100% 100%;
@@ -33,9 +33,6 @@ h1{
   background-color: #0f1212;
   color: white;
   padding-left: 15%;
-  position: -webkit-sticky;
-  position:sticky;
-  top:0;
 }
 
 .navlink {
