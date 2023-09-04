@@ -24,12 +24,12 @@ body::before{
 
 .gallery {
   position: relative;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   height: 750px;
-  margin: 3% 10% 3% 10%;
+  margin: 3% 10%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   overflow:hidden;
 }
 
@@ -52,13 +52,13 @@ body::before{
 }
 
 .gallery-item:hover {
-  transition: 0.8s;
+  transition: 0.5s;
   transition-timing-function: ease-in-out;
-  width:40%;
-  height:60%;
+  width:35%;
+  height:52%;
 }
 .gallery-item:not(:hover) {
-  transition:0.8s;
+  transition:0.5s;
 }
 
 
