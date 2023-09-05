@@ -1,12 +1,17 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import '../secondary.css';
+
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import Container from 'react-bootstrap/Container'
-import portrait from '../images/portrait.jpg'
+import portrait from '../images/portraitAdj.jpg'
+import python from '../images/python.jpg'
+import java from '../images/java.jpg'
+import react from '../images/react.jpg'
+import bootstrap from '../images/bootstrap.jpg'
 
 const Second = () => {
-    
+
     return (
         <div>
             <div className='landing-container'>
@@ -19,23 +24,27 @@ const Second = () => {
                 <Nav.Link href='#Portfolio' className='navlink'>Portfolio</Nav.Link>
                 <Nav.Link href='#Contact' className='navlink'>Contact</Nav.Link>
             </Navbar>
-            <div className='body-container home-container'>
+            <div className='body-container show'>
                     <div className='home-left'>
-                        <div className='diamond'><img src={portrait}/></div>
+                        <div className='diamond'><img className="portrait" src={portrait}/></div>
                         <p className='portrait-desc'>I am a web developer from San Diego, Ca.  I am passionate about and eager to learn all things coding, and enjoy finding creative solutions to real world problems.</p>
                     </div>
                     <div className='home-right'>
                         <div className='skill'>
-                            <div className='diamond-2'></div>
+                            <div className='diamond-2'><img className='icon' src={python}/></div>
+                            <p className='icon-desc'>Python with Flask</p>
                         </div>
                         <div className='skill'>
-                            <div className='diamond-2'></div>
+                            <div className='diamond-2'><img className='icon' src={java}/></div>
+                            <p className='icon-desc'>Java with <br></br>SpringToolSuite4 <br></br>and Flask</p>
                         </div>
                         <div className='skill'>
-                            <div className='diamond-2'></div>
+                            <div className='diamond-2'><img className='icon' src={react}/></div>
+                            <p className='icon-desc'>MERN <br></br>(Mongo, Express, React, Node.js)</p>
                         </div>
                         <div className='skill'>
-                            <div className='diamond-2'></div>
+                            <div className='diamond-2'><img className='icon' src={bootstrap}/></div>
+                            <p className='icon-desc'>MySQL, VS Code, Bootstrap, Amazon Web Services, GitBash</p>
                         </div>
                     </div>
             </div>
