@@ -3,6 +3,7 @@ import '../secondary.css';
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import Container from 'react-bootstrap/Container'
+import portrait from '../images/portrait.jpg'
 
 const Second = () => {
     
@@ -19,10 +20,24 @@ const Second = () => {
                 <Nav.Link href='#Contact' className='navlink'>Contact</Nav.Link>
             </Navbar>
             <div className='body-container home-container'>
-                <Container>
-                    <Container className='home-left'></Container>
-                    <Container className='home-right'></Container>
-                </Container>
+                    <div className='home-left'>
+                        <div className='diamond'><img src={portrait}/></div>
+                        <p className='portrait-desc'>I am a web developer from San Diego, Ca.  I am passionate about and eager to learn all things coding, and enjoy finding creative solutions to real world problems.</p>
+                    </div>
+                    <div className='home-right'>
+                        <div className='skill'>
+                            <div className='diamond-2'></div>
+                        </div>
+                        <div className='skill'>
+                            <div className='diamond-2'></div>
+                        </div>
+                        <div className='skill'>
+                            <div className='diamond-2'></div>
+                        </div>
+                        <div className='skill'>
+                            <div className='diamond-2'></div>
+                        </div>
+                    </div>
             </div>
             <div className='body-container about-container'>
 
