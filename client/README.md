@@ -11,7 +11,7 @@ Thank you for checking out my portfolio, here I will be keeping track of ideas a
 4. Framework for display screens
     Decide if doing scrolls to next, or carousel
         9/4: was working on Scrolls, could not get this function to work properly.  Tried useRef and get element, nothing worked
-    4.1. Home screen by 9/10
+    4.1. Home screen by 9/10 DONE
     4.2. About me screen by 9/14
     4.3. Projects screen by 9/18
     4.4. Contact and links by 9/22

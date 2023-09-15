@@ -58,7 +58,9 @@ h1{
 }
 
 .home-left,
-.home-right {
+.home-right,
+.about-left,
+.about-right {
   display: flex;
   flex-direction: column;
   width: 50%;

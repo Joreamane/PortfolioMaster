@@ -48,8 +48,21 @@ const Second = () => {
                         </div>
                     </div>
             </div>
+            <h1>Everything about me</h1>
             <div className='body-container about-container'>
-
+                <div className='about-left'>
+                    <h2>Work History</h2>
+                    <div className='list-container'>
+                        <ul>
+                            <li>Stone Brewing</li>
+                        </ul>
+                    </div>
+                </div>
+                <div className='about-right'>
+                    <h2>My Path</h2>
+                    <p>Since graduating college with a science degree I have been promoted through several technical positions as a brewer during which I discovered a side passion for a software engineering. I committed to making a career transition and have just completed a Coding Dojo program in full-stack software engineering and web development.</p>
+                    <p>This passion for software engineering came mainly through working directly with engineers at Stone to redesign and test new brewhouse software.  Through this 2+ year project I was able to learn and troubleshoot alongside contracted engineers and Stone's own engineers in order to implement this new program.</p>
+                </div>
             </div>
             <div className='body-container portfolio-container'>
 
