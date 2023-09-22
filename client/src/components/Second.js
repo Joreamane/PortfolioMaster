@@ -61,7 +61,8 @@ const Second = () => {
                 <div className='about-right'>
                     <h2>My Path</h2>
                     <p>Since graduating college with a science degree I have been promoted through several technical positions as a brewer during which I discovered a side passion for a software engineering. I committed to making a career transition and have just completed a Coding Dojo program in full-stack software engineering and web development.</p>
-                    <p>This passion for software engineering came mainly through working directly with engineers at Stone to redesign and test new brewhouse software.  Through this 2+ year project I was able to learn and troubleshoot alongside contracted engineers and Stone's own engineers in order to implement this new program.</p>
+                    <p>This passion for software engineering came mainly through working directly with engineers at Stone to redesign and test new brewhouse software.  Through this 2+ year project I was able to learn and troubleshoot alongside contracted engineers and Stone's own engineers in order to implement this new program.  I was so eager to learn more about software and coding that I decided to try out The Odin Project, a free full stack curriculum focusing on Ruby on Rails.  I enjoyed this program so much that I enrolled in Coding Dojo's 3 full stacks, learning MERN, Java and Python.</p>
+                    <p>Through the Coding Dojo, I worked on both solo and group projects from inception/wireframing to fully functional CRUD applications.  My favorite projects have been a Route Tracker for rock climbing where users can upload and comment on routes they and others have climbed, and what I am currently working on which is a Pet Log for users to keep track of all the important dates for their pets </p>
                 </div>
             </div>
             <div className='body-container portfolio-container'>
